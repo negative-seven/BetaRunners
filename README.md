@@ -20,7 +20,7 @@ git submodule update
 Then open BetaRunners.sln in Visual Studio 2015+ and compile
 
 ## Generating versions.txt manually
-1. Download [versions.py](https://gist.github.com/ZombieWizzard/715932834ffba38ebb7b8dbef39cf60f)
+1. Download [sr_versions_extractor.py](https://gist.github.com/ZombieWizzard/715932834ffba38ebb7b8dbef39cf60f)
 2. Place in the same directory as DepotDownloader
 3. Create a file called `userdetails.py` and create 2 variables user and password with your details
 4. Create a line seperated list of manifests to extract versions from in a file called `manifests.txt`
